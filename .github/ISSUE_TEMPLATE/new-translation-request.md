@@ -1,7 +1,7 @@
 ---
 name: New translation request
 about: Provide information about the target mod
-title: "[New translation request]"
+title: "[New translation request] "
 labels: enhancement
 assignees: ''
 
