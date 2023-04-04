@@ -1,0 +1,17 @@
+{
+    "text.exordium.title": "Exordium设置",
+    "text.exordium.enableGui": "启用Gui缓冲",
+    "text.exordium.enableGui.tooltip": "启用/禁用缓冲游戏内gui/hud",
+    "text.exordium.targetFramerateGui": "Gui帧率",
+    "text.exordium.targetFramerateGui.tooltip": "游戏内gui/hud的目标帧率",
+    "text.exordium.enableSignBuffering": "告示牌文本缓冲",
+    "text.exordium.enableSignBuffering.tooltip": "启用/禁用缓冲告示牌文本",
+    "text.exordium.enableNametagScreenBuffering": "启用名称标签缓冲",
+    "text.exordium.enableNametagScreenBuffering.tooltip": "启用/禁用缓冲在屏幕上的名称标签",
+    "text.exordium.targetFPSNameTags": "名称标签帧率",
+    "text.exordium.targetFPSNameTags.tooltip": "屏幕上名称标签的目标帧率",
+    "text.exordium.enabledGuiAnimationSpeedup": "加速Gui动画",
+    "text.exordium.enabledGuiAnimationSpeedup.tooltip": "在gui动画期间启用/禁用加速",
+    "text.exordium.targetFPSIngameGuiAnimated": "Gui动画帧率",
+    "text.exordium.targetFPSIngameGuiAnimated.tooltip": "gui动画的目标帧率"
+  }

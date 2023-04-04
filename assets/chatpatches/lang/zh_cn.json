@@ -1,0 +1,60 @@
+{
+    "text.chatpatches.title": "聊天框补丁配置",
+
+    "text.chatpatches.dateFormat": "有关日期和时间格式的信息，请单击此处！",
+    "text.chatpatches.formatCodes": "有关格式化代码字符的信息以及它们所起到的作用，请单击此处！",
+
+    "text.chatpatches.time": "时间戳切换",
+    "text.chatpatches.timeDate": "时间戳文本",
+    "text.chatpatches.timeFormat": "时间戳修饰文本",
+    "text.chatpatches.timeColor": "时间戳颜色",
+    "text.chatpatches.desc.time": "是否在所有消息前显示时间戳？",
+    "text.chatpatches.desc.timeDate": "格式化为时间戳的文本。",
+    "text.chatpatches.desc.timeFormat": "由'&'和格式代码修饰符、创建时间戳的装饰文本所组成的字符串。'$'是上面这个格式化时间戳选项的占位符。",
+    "text.chatpatches.desc.timeColor": "在生成的时间戳中本应为空白的位置所要填充的颜色。要将其与其他格式修饰符一起使用，请在装饰文本选项中使用'&r'。",
+
+    "text.chatpatches.hover": "悬停切换",
+    "text.chatpatches.hoverDate": "悬停文本",
+    "text.chatpatches.hoverFormat": "悬停修饰文本",
+    "text.chatpatches.hoverColor": "悬停文本颜色",
+    "text.chatpatches.desc.hover": "当您将鼠标悬停在聊天中的时间戳文本上时，是否显示更为详细的时间描述的文本？",
+    "text.chatpatches.desc.hoverDate": "格式化为较长日期/时间字符串的文本。",
+    "text.chatpatches.desc.hoverFormat": "由'&'和格式代码修饰符、创建详细悬停说明的装饰文本所组成的字符串。需要一个'$'作为占位符，用于上方的格式化时间戳选项。",
+    "text.chatpatches.desc.hoverColor": "在生成的悬停文本中本应为空白的地方填充的颜色。要将其与其他格式修饰符一起使用，请在装饰文本选项中使用'&r'。",
+
+    "text.chatpatches.counter": "消息计数器切换",
+    "text.chatpatches.counterFormat": "消息计数器文本",
+    "text.chatpatches.counterColor": "消息计数器颜色",
+    "text.chatpatches.desc.counter": "消息计数器是否在消息后显示以用来指示聊天框中消息发送了多个重复项？",
+    "text.chatpatches.desc.counterFormat": "添加到消息末尾的文本，表示聊天框中消息发送了多个重复项。需要一个'$'表示重复次数，同时还支持'&'+格式代码修饰符的格式。",
+    "text.chatpatches.desc.counterColor": "在生成的消息计数器处本应为空白的地方填充的颜色。要将其与其他格式修饰符一起使用，请在装饰文本选项中使用'&r'。",
+
+    "text.chatpatches.boundary": "会话边界切换",
+    "text.chatpatches.boundaryFormat": "会话边界文本",
+    "text.chatpatches.boundaryColor": "会话边界颜色",
+    "text.chatpatches.desc.boundary": "是否在两段聊天记录(离开一个世界/服务器后再加入另一个世界/服务器)之间显示会话边界？",
+    "text.chatpatches.desc.boundaryFormat": "被格式化并用于会话边界的文本。支持'&'+格式化代码修饰符，'\\n'换行，并使用'$'作为世界名称的占位符。",
+    "text.chatpatches.desc.boundaryColor": "在生成的会话边界处本应为空白的位置填充的颜色。要将其与其他格式修饰符一起使用，请在装饰文本选项中使用'&r'。",
+
+    "text.chatpatches.saveChat": "聊天日志切换",
+    "text.chatpatches.shiftChat": "转移聊天",
+    "text.chatpatches.chatWidth": "覆盖聊天的宽度",
+    "text.chatpatches.maxMsgs": "最大聊天消息数",
+    "text.chatpatches.nameFormat": "玩家名文本",
+    "text.chatpatches.desc.saveChat": "是否应将聊天记录保存到日志中，以便在另一个游戏会话中将其重新添加回聊天记录？",
+    "text.chatpatches.desc.shiftChat": "将聊天界面向上移动以免遮挡护甲栏或生命值栏。默认数值为10，设置为0表示不进行移动。",
+    "text.chatpatches.desc.chatWidth": "聊天框的宽度。这会覆盖原版聊天框宽度的默认值并允许设置更大的宽度。设置为0以使用原始设置而不覆盖它。",
+    "text.chatpatches.desc.maxMsgs": "允许保存的最大聊天消息数。原版的上限为100，而此模组可将其增加至32,767。请注意，更高的值意味着更大的内存使用量。",
+    "text.chatpatches.desc.nameFormat": "在聊天消息中用于替换玩家名的文本。原版是'<$>'，只有名字的话是'$'，其中'$'是玩家名的占位符。仅适用于由玩家发送的消息。",
+
+    "text.chatpatches.category.time": "时间戳",
+    "text.chatpatches.category.hover": "悬停信息",
+    "text.chatpatches.category.counter": "重复消息计数器",
+    "text.chatpatches.category.boundary": "会话边界",
+    "text.chatpatches.category.hud": "聊天HUD",
+    "text.chatpatches.category.help": "帮助",
+    "text.chatpatches.category.debug": "调试",
+
+    "text.chatpatches.copymessage.index": "复制的消息 %d: '%s'",
+    "text.chatpatches.copymessage.index.missing": "消息 %d 不存在"
+}
