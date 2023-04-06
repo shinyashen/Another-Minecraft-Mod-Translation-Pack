@@ -1,184 +1,184 @@
-# Translation version 0
+# 翻译版本 0
 :0
 
-############ ModMenu Translations ############
+############ 模组菜单翻译 ############
 
-g4mespeed.modmenu.discord=Join G4mespeed Discord!
-g4mespeed.modmenu.done=Done
-g4mespeed.modmenu.title=G4mespeed Config
+g4mespeed.modmenu.discord=加入G4mespeed Discord服务器！
+g4mespeed.modmenu.done=完成
+g4mespeed.modmenu.title=G4mespeed设置
 
-############ GUI Elements ############
+############ GUI元素 ############
 
-gui.tab.clientSettings=Client Settings
-gui.tab.serverSettings=Server Settings
-gui.tab.info=Info
-gui.tab.hotkeys=Hotkeys
+gui.tab.clientSettings=客户端设置
+gui.tab.serverSettings=服务端设置
+gui.tab.info=信息
+gui.tab.hotkeys=热键
 
-gui.info.serverExtensionsTitle=Server Extensions:
-gui.info.clientExtensionsTitle=Client Extensions:
+gui.info.serverExtensionsTitle=服务端拓展版本：
+gui.info.clientExtensionsTitle=客户端拓展版本：
 gui.info.extensionName=%s:
-gui.info.invalidVersion=Not installed
+gui.info.invalidVersion=未安装
 
-setting.default=Default is %s.
-setting.button.reset=Reset
-setting.button.set=Set
+setting.default=默认为 %s.
+setting.button.reset=重置
+setting.button.set=设置
 
-setting.tps=Tickspeed
-setting.betterPistons=Better Pistons
+setting.tps=刻速率相关
+setting.betterPistons=更好的活塞
 
-############ Panels ############
+############ 面板 ############
 
-panel.textfield.cut=Cut
-panel.textfield.copy=Copy
-panel.textfield.paste=Paste
-panel.textfield.selectall=Select All
+panel.textfield.cut=剪切
+panel.textfield.copy=复制
+panel.textfield.paste=粘贴
+panel.textfield.selectall=选择全部
 
-panel.scrollbar.scrollhere=Scroll Here
-panel.scrollbar.top=Top
-panel.scrollbar.bottom=Bottom
-panel.scrollbar.pageup=Page Up
-panel.scrollbar.pagedown=Page Down
-panel.scrollbar.scrollup=Scroll Up
-panel.scrollbar.scrolldown=Scroll Down
-panel.scrollbar.leftedge=Left Edge
-panel.scrollbar.rightedge=Right Edge
-panel.scrollbar.pageleft=Page Left
-panel.scrollbar.pageright=Page Right
-panel.scrollbar.scrollleft=Scroll Left
-panel.scrollbar.scrollright=Scroll Right
+panel.scrollbar.scrollhere=滚动至此处
+panel.scrollbar.top=滚动至顶部
+panel.scrollbar.bottom=滚动至底部
+panel.scrollbar.pageup=滚动至上页
+panel.scrollbar.pagedown=滚动至下页
+panel.scrollbar.scrollup=向上滚动
+panel.scrollbar.scrolldown=向下滚动
+panel.scrollbar.leftedge=滚动至左页
+panel.scrollbar.rightedge=滚动至右页
+panel.scrollbar.pageleft=滚动至左页
+panel.scrollbar.pageright=滚动至右页
+panel.scrollbar.scrollleft=向左滚动
+panel.scrollbar.scrollright=向右滚动
 
-############ Client Settings ############
+############ 客户端设置 ############
 
-setting.tps.shiftPitch=Shift Sound Pitch
-setting.tps.shiftPitch.desc=Modifies the pitch of sounds to match the speed at which the game is running.
+setting.tps.shiftPitch=改变音高
+setting.tps.shiftPitch.desc=修改声音的音高以匹配游戏运行的速度。
 
-setting.tps.syncTick=Synchronized Ticking
-setting.tps.syncTick.desc=Synchronizes the server and client tick clock to improve piston animations. This is done by approximating the server tick-cycle.
+setting.tps.syncTick=同步刻运行
+setting.tps.syncTick.desc=同步服务器和客户端刻时钟以改进活塞动画。这是通过近似服务器的刻周期来完成的。
 
-setting.tps.syncTickAggression=Synchronization Aggression
-setting.tps.syncTickAggression.desc=The aggression of synchronization. A value of 1.0 will follow the approximated clock exactly. A value of 0.0 will disable synchronization.
+setting.tps.syncTickAggression=同步攻击
+setting.tps.syncTickAggression.desc=攻击的同步操作。把值设置为1.0将完全遵循近似时钟。把值设置为0.0将禁用同步。
 
-setting.tps.forceCarpetTickrate=Force Carpet Tickrate
-setting.tps.forceCarpetTickrate.desc=Forces the client to use the tickrate set by G4mespeed and the Carpet mod. This overrides functionality related to smoothClientAnimations in Carpet. If you wish to use Carpet's handling for tickrate on the client, disable this setting.
+setting.tps.forceCarpetTickrate=强制Carpet刻速率
+setting.tps.forceCarpetTickrate.desc=强制客户端使用G4mespeed和Carpet模组设置的刻速率。这会覆盖Carpet中与 smoothClientAnimations相关的功能。如果您希望在客户端上使用Carpet的刻速率处理，请禁用此设置。
 
-setting.tps.tpsLabel=TPS Label
-setting.tps.tpsLabel.desc=Displays a label with the current and target server tps in the specified location of the in-game hud. If the connected server is not a G4mespeed server the tps will be approximated.
-setting.tps.tpsLabel.0=Hidden
-setting.tps.tpsLabel.1=Top left
-setting.tps.tpsLabel.2=Top center
-setting.tps.tpsLabel.3=Top right
+setting.tps.tpsLabel=TPS标签
+setting.tps.tpsLabel.desc=在游戏内HUD的指定位置显示带有当前和目标服务器tps的标签。如果连接的服务器不是G4mespeed服务器，则tps将是近似值。
+setting.tps.tpsLabel.0=隐藏
+setting.tps.tpsLabel.1=顶部左侧
+setting.tps.tpsLabel.2=顶部中央
+setting.tps.tpsLabel.3=顶部右侧
 
-setting.tps.normalMovement=Fixed Movement Speed
-setting.tps.normalMovement.desc=Allows the player to move at a fixed 20 ticks per second without affecting server tick rate.
+setting.tps.normalMovement=固定移动速度
+setting.tps.normalMovement.desc=允许玩家以每秒固定的20刻移动同时不影响服务器刻速率。
 
-setting.tps.tweakerooFreecamHack=Tweakeroo Free Camera Hack
-setting.tps.tweakerooFreecamHack.desc=A simple hack that also enables fixed movement speed for the Tweakeroo Free Camera. Disable this feature if you experience any issues with it.
+setting.tps.tweakerooFreecamHack=Tweakeroo Free Camera修改
+setting.tps.tweakerooFreecamHack.desc=一个为Tweakeroo Free Camera启用固定移动速度的简单修改。如果你遇到任何问题，请禁用此功能。
 
-setting.betterPistons.cullMovingBlocks=Cull Moving Blocks
-setting.betterPistons.cullMovingBlocks.desc=Culls the back-face of blocks that are pushed by pistons. This will mostly affect transparent moving blocks.
+setting.betterPistons.cullMovingBlocks=剔除移动方块的表面
+setting.betterPistons.cullMovingBlocks.desc=剔除被活塞推动的方块的背面。这主要将影响透明的移动方块。
 
-setting.betterPistons.pistonAnimationType=Piston Animation Type
-setting.betterPistons.pistonAnimationType.0=Pause at end
-setting.betterPistons.pistonAnimationType.1=Pause at middle
-setting.betterPistons.pistonAnimationType.2=Pause at beginning
-setting.betterPistons.pistonAnimationType.3=No pause
-setting.betterPistons.pistonAnimationType.desc=Specifies whether to have a pause in the piston animation and if it should be at the beginning, middle, or end.
+setting.betterPistons.pistonAnimationType=活塞动画种类
+setting.betterPistons.pistonAnimationType.0=在结束时暂停
+setting.betterPistons.pistonAnimationType.1=在中间过程暂停
+setting.betterPistons.pistonAnimationType.2=在开始时暂停
+setting.betterPistons.pistonAnimationType.3=不暂停
+setting.betterPistons.pistonAnimationType.desc=指定是否在活塞动画中进行暂停操作，以及该暂停是在开始、中间过程还是结束。
 
-setting.betterPistons.correctPistonPushing=Corrected Entity Pushing
-setting.betterPistons.correctPistonPushing.desc=Visually corrects movement of entities being pushed by pistons in accordance to piston animation type.
+setting.betterPistons.correctPistonPushing=修正实体被推动的动作
+setting.betterPistons.correctPistonPushing.desc=根据活塞动画类型，在视觉上修正被活塞推动的实体的移动动作。
 
-setting.betterPistons.pistonRenderDistance=Piston Render Distance
-setting.betterPistons.pistonRenderDistance.desc=Render distance of blocks moved by pistons. Since this has no effect if it is greater than the block event distance on the server the option can be set to Automatic to use this distance instead.
-setting.betterPistons.pistonRenderDistance.-1=Automatic
-setting.betterPistons.pistonRenderDistance.1=1 chunk
-setting.betterPistons.pistonRenderDistance.x=%s chunks
+setting.betterPistons.pistonRenderDistance=活塞渲染距离
+setting.betterPistons.pistonRenderDistance.desc=渲染被活塞移动的方块（b36）的距离。 如果它大于服务器上的方块事件距离，则此选项无效，因此可以将选项设置为“自动”以改为使用此距离。
+setting.betterPistons.pistonRenderDistance.-1=自动
+setting.betterPistons.pistonRenderDistance.1=1区块
+setting.betterPistons.pistonRenderDistance.x=%s区块
 
-############ Hotkeys ############
+############ 热键 ############
 
-hotkey.gs.title=G4mespeed
-hotkey.gs.opengui=Open GUI
+hotkey.gs.title=G4mespeed热键
+hotkey.gs.opengui=打开GUI
 
-hotkey.tps.title=Tickspeed
-hotkey.tps.reset=Reset Tps
-hotkey.tps.increment=Increment Tps
-hotkey.tps.decrement=Decrement Tps
-hotkey.tps.double=Double Tps
-hotkey.tps.halve=Halve Tps
+hotkey.tps.title=刻速率热键
+hotkey.tps.reset=重置Tps
+hotkey.tps.increment=增加Tps
+hotkey.tps.decrement=减少Tps
+hotkey.tps.double=Tps翻倍
+hotkey.tps.halve=Tps减半
 
-gui.hotkey.reset=Reset
-gui.hotkey.cancel=Cancel
-gui.hotkey.resetAll=Reset All
-gui.hotkey.unbindAll=Unbind all
+gui.hotkey.reset=重置
+gui.hotkey.cancel=取消
+gui.hotkey.resetAll=重置全部
+gui.hotkey.unbindAll=解绑全部按键
 
-###########   Game Information    ############
+###########   游戏信息    ############
 
-play.info.clientTpsChanged=Client tps changed to %s
+play.info.clientTpsChanged=客户端tps更改至%s
 play.info.tpsLabelTarget=tps (%s)
 
-# Translation version 4 (v1.1.0)
-# The older translation versions are deprecated.
+# 翻译版本 4 (v1.1.0)
+# 旧版本的翻译已弃用。
 :4
 
-###########   Commands    ############
+###########   命令    ############
 
-command.gs.info=G4mespeed version is %s
+command.gs.info=G4mespeed版本为%s
 
-command.tps.get=Tps is %s
-command.tps.set=Tps has been set to %s
+command.tps.get=Tps为%s
+command.tps.set=Tps被设置为%s
 
-command.tps.getn=Tps is %s, %sn
-command.tps.geton=Tps is %s, %so %sn
+command.tps.getn=Tps为%s, %sn
+command.tps.geton=Tps为%s, %so %sn
 
-###########   Server Settings    ############
+###########   服务端设置    ############
 
-setting.tps.syncPacketInterval=Synchronization Interval
-setting.tps.syncPacketInterval.desc=The interval, in ticks, at which the server transmits a synchronization packet. A value of 1 allows the clients to synchronize best but also demands higher bandwidth.
+setting.tps.syncPacketInterval=同步间隔
+setting.tps.syncPacketInterval.desc=服务器传输同步数据包的时间间隔（以刻为单位）。将值设置为1以达到最好的客户端同步效果，但这也需要更高的带宽。
 
-setting.tps.hotkeyMode=Allowed Hotkey Gamemodes
-setting.tps.hotkeyMode.desc=Specifies which gamemodes players must be to change tps using in-game hotkeys. If All is selected then there is no restriction on players' gamemodes.
-setting.tps.hotkeyMode.0=None
-setting.tps.hotkeyMode.1=Creative and Spectator
-setting.tps.hotkeyMode.2=All
+setting.tps.hotkeyMode=允许使用修改热键的游戏模式
+setting.tps.hotkeyMode.desc=指定玩家必须使用哪些游戏模式才能使用游戏内热键来更改tps。如果选择“全部”，则对玩家的游戏模式没有限制。
+setting.tps.hotkeyMode.0=不允许更改
+setting.tps.hotkeyMode.1=创造模式与观察者模式
+setting.tps.hotkeyMode.2=全部模式
 
-setting.tps.broadcastTps=Broadcast TPS
-setting.tps.broadcastTps.desc=Broadcasts the server tps every two seconds to allow players to accurately monitor server performance.
+setting.tps.broadcastTps=广播TPS
+setting.tps.broadcastTps.desc=每两秒广播服务器tps，以让玩家准确监控服务器性能。
 
-setting.betterPistons.blockEventDistance=Block Event Distance
-setting.betterPistons.blockEventDistance.1=1 chunk
-setting.betterPistons.blockEventDistance.x=%s chunks
-setting.betterPistons.blockEventDistance.desc=The broadcast-radius, in chunks, for which piston block-events will be sent to clients. This will also affect the maximum view distance for moving blocks on clients.
+setting.betterPistons.blockEventDistance=方块事件距离
+setting.betterPistons.blockEventDistance.1=1区块
+setting.betterPistons.blockEventDistance.x=%s区块
+setting.betterPistons.blockEventDistance.desc=活塞的方块事件将以区块为单位的广播半径发送给客户端。这也会影响客户端能看到移动方块（b36）的最大视距。
 
-setting.betterPistons.paranoidMode=Paranoid Mode
-setting.betterPistons.paranoidMode.desc=Sends multiple redundant piston block-change packets to nearby players. This ensures that clients that were unable to execute the correct piston block-events can still synchronize properly. It is recommended to use this in conjunction with Immediate Block Broadcast.
+setting.betterPistons.paranoidMode=偏执模式
+setting.betterPistons.paranoidMode.desc=向附近的玩家发送多个冗余的活塞方块更新数据包。这确保无法执行正确的活塞方块事件的客户端仍然可以正确同步。建议将其与即时方块广播结合使用。
 
-setting.betterPistons.immediateBlockBroadcast=Immediate Block Broadcast
-setting.betterPistons.immediateBlockBroadcast.desc=Broadcasts all block changes caused by major redstone-related components within the same tick as they occurred. This acts as a complement to and does not replace the broadcast that occurs at the beginning of each tick. It is recommended to use this with Paranoid Mode enabled and Block Event Distance set to 0 chunks.
+setting.betterPistons.immediateBlockBroadcast=即时方块广播
+setting.betterPistons.immediateBlockBroadcast.desc=由主要的红石元件引起的所有方块更新发生的同一刻内广播它们。这是对每一刻开始时发生的广播的补充，但并不会取代它。建议在启用偏执模式并将阻止事件距离设置为0区块的情况下使用它。
 
-###########   Game Information    ############
+###########   游戏信息    ############
 
-play.info.tpsChanged=%s changed the tps to %s
-play.info.hotkeysDisallowed=Must be in Creative or Spectator to use hotkeys
+play.info.tpsChanged=%s将tps调整至%s
+play.info.hotkeysDisallowed=必须处于创造模式或观察者模式来使用热键改变tps
 
-# Translation version 5 (v1.1.1)
+# 翻译版本 5 (v1.1.1)
 :5
 
-setting.tps.hotkeyFeedback=Hotkey Feedback
-setting.tps.hotkeyFeedback.desc=Specifies where the feedback from tps hotkeys will be displayed. If feedback is Disabled there will not be sent any messages when a player changes tps.
-setting.tps.hotkeyFeedback.0=Disabled
-setting.tps.hotkeyFeedback.1=Info bar
-setting.tps.hotkeyFeedback.2=Chat
+setting.tps.hotkeyFeedback=热键反馈
+setting.tps.hotkeyFeedback.desc=指定来自tps热键触发后反馈的显示位置。如果禁用反馈，当玩家改变tps时将不会发送任何消息。
+setting.tps.hotkeyFeedback.0=禁用
+setting.tps.hotkeyFeedback.1=信息栏
+setting.tps.hotkeyFeedback.2=聊天框
 
-# Translation version 6 (v1.1.5)
+# 翻译版本 6 (v1.1.5)
 :6
 
-setting.tps.restoreTickrate=Restore Tickrate
-setting.tps.restoreTickrate.desc=Restores the tickrate from the previous session after the server has restarted.
+setting.tps.restoreTickrate=恢复刻速率
+setting.tps.restoreTickrate.desc=在服务器重新启动后恢复上一次会话的刻速率。
 
-# Translation version 7 (v1.2.0)
+# 翻译版本 7 (v1.2.0)
 :7
 
-setting.tps.prettySand=Pretty Sand
-setting.tps.prettySand.0=Disabled
-setting.tps.prettySand.1=Performance
-setting.tps.prettySand.2=Fidelity
-setting.tps.prettySand.desc=Improves the look of falling block entities. Performance achieves this with minimal packets sent over the network, but clients might become desynchronized. Proper synchronization is solved with Fidelity, but it significantly increases network usage and is therefore not recommended for general use.
+setting.tps.prettySand=更美观的落沙
+setting.tps.prettySand.0=禁用
+setting.tps.prettySand.1=性能模式
+setting.tps.prettySand.2=真实模式
+setting.tps.prettySand.desc=改善掉落方块实体的外观。通过网络发送最低限度的数据包来实现这样的性能，但客户端可能会处于不同步的状态。使用“真实模式”可解决正确同步的问题，但它会显着增加网络使用率，因此不建议一般情况下使用。
