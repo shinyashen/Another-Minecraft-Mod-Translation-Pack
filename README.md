@@ -11,6 +11,8 @@ Translated mods list:
 
 - chatpatches[[Curseforge](https://www.curseforge.com/minecraft/mc-mods/chatpatches)/[Modrinth](https://modrinth.com/mod/chatpatches)]
 
+- colormeoutlines[[Curseforge](https://www.curseforge.com/minecraft/mc-mods/color-me-outlines)/[Modrinth](https://modrinth.com/mod/color-me-outlines)]
+
 - g4mespeed[[Curseforge](https://www.curseforge.com/minecraft/mc-mods/g4mespeed)]
 
 - exordium[[Curseforge](https://www.curseforge.com/minecraft/mc-mods/exordium)/[Modrinth](https://modrinth.com/mod/exordium)]

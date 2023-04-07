@@ -1,8 +1,8 @@
 {
-  "text.autoconfig.colormeoutlines.title": "Color Me Outlines",
-  "text.autoconfig.colormeoutlines.option.red": "Red",
-  "text.autoconfig.colormeoutlines.option.green": "Green",
-  "text.autoconfig.colormeoutlines.option.blue": "Blue",
-  "text.autoconfig.colormeoutlines.option.alpha": "Alpha",
-  "text.autoconfig.colormeoutlines.option.width": "Outline Width"
+  "text.autoconfig.colormeoutlines.title": "Color Me Outlines设置",
+  "text.autoconfig.colormeoutlines.option.red": "红色(R)",
+  "text.autoconfig.colormeoutlines.option.green": "绿色(G)",
+  "text.autoconfig.colormeoutlines.option.blue": "蓝色(B)",
+  "text.autoconfig.colormeoutlines.option.alpha": "透明度",
+  "text.autoconfig.colormeoutlines.option.width": "轮廓宽度"
 }
