@@ -14,3 +14,5 @@ Translated mods list:
 - g4mespeed[[Curseforge](https://www.curseforge.com/minecraft/mc-mods/g4mespeed)]
 
 - exordium[[Curseforge](https://www.curseforge.com/minecraft/mc-mods/exordium)/[Modrinth](https://modrinth.com/mod/exordium)]
+
+- screenfx[[Curseforge](https://www.curseforge.com/minecraft/mc-mods/screenfx)/[Modrinth](https://modrinth.com/mod/screenfx)]
