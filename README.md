@@ -5,7 +5,7 @@ target language: Simplified Chinese (简体中文)
 
 target game information: 1.19.4 with Fabric
 
-last update: 2023/04/11
+last update: 2023/04/12
 
 Translated mods list:
 
@@ -24,5 +24,7 @@ Translated mods list:
 - minihud[[Curseforge](https://www.curseforge.com/minecraft/mc-mods/minihud)](Original translation by [ZMDF](https://space.bilibili.com/13205801)/[SinBing](https://space.bilibili.com/1446187))
 
 - screenfx[[Curseforge](https://www.curseforge.com/minecraft/mc-mods/screenfx)/[Modrinth](https://modrinth.com/mod/screenfx)]
+
+- simpleshulkerpreview[[Curseforge](https://www.curseforge.com/minecraft/mc-mods/simple-shulker-preview)/[Modrinth](https://modrinth.com/mod/simple-shulker-preview)]
 
 - tweakeroo[[Curseforge](https://www.curseforge.com/minecraft/mc-mods/tweakeroo)](Original translation by [ZMDF](https://space.bilibili.com/13205801)/[SinBing](https://space.bilibili.com/1446187))
