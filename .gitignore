@@ -1,2 +1,2 @@
-vscode.bat
-my-key.asc
+tools/
+.vscode/
