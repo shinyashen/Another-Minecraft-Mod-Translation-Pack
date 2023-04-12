@@ -505,7 +505,7 @@
 	"config.comment.skipworldrendering": "使用快捷键切换开启/关闭。 \n开启此项后，所有关于世界的渲染运算都会被跳过。",
 	"config.name.standupnearbypets": "起来！",
 	"config.comment.standupnearbypets": "让附近所有的宠物站起",
-	"config.name.swapelytrachestplate": "鞘翅胸甲",
+	"config.name.swapelytrachestplate": "鞘翅胸甲切换",
 	"config.comment.swapelytrachestplate": "按下快捷键时，更换胸部装备为鞘翅/胸甲。",
 	"config.name.togglecarpetaccurateplacementprotocol": "切换地毯精确放置协议",
 	"config.comment.togglecarpetaccurateplacementprotocol": "开关通用中的地毯精确放置协议",
